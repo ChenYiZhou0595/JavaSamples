@@ -1,3 +1,5 @@
+package singleton;
+
 /**
  * 双重检查模式（DCL）
  * 这种写法在getSingleton方法中对Singleton进行了两次判空：第一次是为了不必要的同步，第二次是在 Singleton等于null的情况下才创建实例。

@@ -1,3 +1,5 @@
+package singleton;
+
 /**
  * 静态内部类单例模式
  * 第一次加载Singleton类时并不会初始化sInstance，只有第一次调用getInstance方法时虚拟机加载 SingletonHolder 并初始化 sInstance。
